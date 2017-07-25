@@ -15,7 +15,7 @@ User can directly use the default Uni-Qt or make some custom modifications by us
 - [pysideuic](https://github.com/bpabel/pysideuic)
 - [pyside-uicfix](https://github.com/jerch/pyside-uicfix)
 
-All the codes of these references have been included in Uni-Qt package with some secondary developments. So generally, you don't need an additional downloads.
+All the codes of these references have been included in Uni-Qt package with some secondary developments. So generally, you don't need an additional download.
 
 ### Usage
 
@@ -33,7 +33,7 @@ Besides, it keeps a few old features from PyQt4 to strengthen backward compatibi
 
 There are also two utilities in Uni-Qt 'bin' folder. 'pyqt4toqt' is a secondary developed [pyqt4topyqt5](https://github.com/rferrazz/pyqt4topyqt5) tool. It uses 'Qt' or user's input as the name of Qt library in generating codes rather than the rigid 'PyQt5'.
 
-And the 'pyuic' is a wrapper of pyuic4 and pyuic5, it will automatically choose the same binding with Uni-Qt then translate the generating codes to fit Uni-Qt syntax. 
+And the 'pyuic' is a wrapper of pyuic4 and pyuic5, it can automatically choose the same binding with Uni-Qt then translate the generating codes to fit Uni-Qt syntax. 
 
 ### Documentations
 
@@ -46,7 +46,7 @@ And the 'pyuic' is a wrapper of pyuic4 and pyuic5, it will automatically choose 
 
 ##### Environment Variables
 
-You can change the variables' name or the default value of QT_BINDING by editing the qt_conf script.
+You can change the variables' name or the default value of QT_PREFERRED_BINDING by editing the qt_conf script.
 
 | Variable        | Type   | Description
 |:----------------|:-------|:------------
@@ -66,7 +66,7 @@ Uni-Qt design the qt_modify to unify the differences between all four kinds of p
 
 For instance, there is a method called 'setTextColor' in PyQt4.QtGui.QTreeWidgetItem which is disappeared in PyQt5. It leads a big trouble after we translate our codes from PyQt4 to PyQt5 even though we can find another way to implement it in PyQt5.
 
-For this reason, Uni-Qt provides a way to keep this method in all kinds of binding, here is the example:
+For this reason, Uni-Qt provides a way to keep this method in all kinds of bindings, here is the example:
 
 	from PyQt5 import QtWidgets	
 		
