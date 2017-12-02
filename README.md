@@ -80,7 +80,7 @@ You are welcomed to further implement the qt_modify and I will really appreciate
 
 ##### Maintainer
 
-- Calven Gu [cz069069@outlook.com](mailto:cz069069@outlook.com)
+- Calvin Gu [cz069069@outlook.com](mailto:cz069069@outlook.com)
 
 ##### Credits
 
